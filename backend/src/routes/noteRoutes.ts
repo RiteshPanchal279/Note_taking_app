@@ -28,7 +28,7 @@ router.post('/', asyncHandler(async (req: Request, res: Response) => {
   res.status(201).json(note);
 }));
 
-// 📄 Get all notes
+//  Get all notes
 router.get('/', asyncHandler(async (req: Request, res: Response) => {
   const userEmail = (req as any).user.email;
 

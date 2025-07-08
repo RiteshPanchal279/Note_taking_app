@@ -35,8 +35,6 @@ const Signup: React.FC = () => {
             email: formData.email,
           }
         );
-        // console.log("res.data request otp  : ", res.data);
-        // console.log("res request otp  : ", res);
 
         if (res.data.success) {
           setShowOtp(true);
@@ -56,7 +54,7 @@ const Signup: React.FC = () => {
           localStorage.setItem("token", res.data.token);
           localStorage.setItem("user", JSON.stringify(res.data.user));
           toast.success("Signup successful!");
-          navigate("/home");
+          navigate("/");
         }
       }
     } catch (err) {
