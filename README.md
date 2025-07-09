@@ -79,7 +79,7 @@ A full-stack note-taking application built with **Node, Express (TypeScript)** o
 - EMAIL_PASS= password
 
 ---
-## Cllient(Frontend) env
+## Client(Frontend) env
 
 - VITE_BACKEND_URL= backend port or deployes url
 
